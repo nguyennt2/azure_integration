@@ -10,6 +10,10 @@ Integrate Dynamic 365 and RestAPI to update
 - REST API
 - Prometheus
 
+## Installation Dependency
+
+`pip install -r requirements.txt`
+
 ## Data flow
 
 External system → REST API (Middleware to monitor) → D365 for updates;
